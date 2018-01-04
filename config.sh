@@ -34,6 +34,7 @@ INIT_BANK="$LOCAL_TOP"/init$jobid
 DEST_BANK="$LOCAL_TOP"/dest$jobid
 #
 MUSTANGBIN="$LOCAL_SRC"/MUSTANG_v3.2.2/bin/mustang-3.2.1
+PYTHONBIN=$( which python2.7)
 PYMOLBIN=$( which pymol)
 #
 # The files that we are going to create along the process

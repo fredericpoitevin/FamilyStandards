@@ -14,7 +14,7 @@ do
   keylist=$(echo "$keyword" | awk -v i=$i -F ">" '{print $i }')
   echo "$keylist"
   if [ "$keylist" != "" ]; then
-    LIST=$LIST" ` python $LOCAL_SRC/pdb_list_keyword.py "$keylist"`"
+    LIST=$LIST" ` $PYTHONBIN $LOCAL_SRC/pdb_list_keyword.py "$keylist"`"
     i=` expr $i + 1`
   else
     iok=0

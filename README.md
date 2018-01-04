@@ -13,10 +13,11 @@ It should work with multimeric proteins, but the treatment of complexes (DNA-RNA
 This is a linux/macOS only tool.
 
 **Dependencies**
+
 you will need the following to run. First three should be native, the latter can be installed from https://pymolwiki.org/index.php/MAC_Install. 
 * wget
 * gfortran
-* python
+* python2.7
 * pymol
 
 **Protocol**
@@ -57,4 +58,6 @@ symmetry=5 # this parameter is used to retain the first 'symmetry' chains
            #PDBs will be implemented.
 ```
 
+### the actual run
 
+`./standardize.sh`

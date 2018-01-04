@@ -17,9 +17,9 @@ echo "... >>> WGET ?"
           read
         fi
 echo "... >>> PYTHON ?"
-	if ! which python; then
+	if ! which python2.7; then
 	  echo "WARNING..."
-	  echo "In the 'auto' mode, you'll need python. Please install it. [Press enter to resume installation...]"
+	  echo "In the 'auto' mode, you'll need python2.7. Please install it. [Press enter to resume installation...]"
 	  read
 	fi
 echo "... >>> MUSTANG"

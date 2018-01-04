@@ -26,10 +26,10 @@ if result:
     start = 0
     end = start + 4
     for i in range(0,result.count('\n')):
-       print(result[start:end],
-       start += 5
-       end += 5
-        )
+        print(result[start:end])
+        start += 5
+        end += 5
+
 else:
 
     print("Failed to retrieve results") 
