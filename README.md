@@ -71,9 +71,12 @@ symmetry=5 # this parameter is used to retain the first 'symmetry' chains
 
 #### rewriting all PDB with common numbering scheme
 
-`./common.sh`
+this can be run without argument. If an argument is provided, it needs to be one of the PDB ID in the set, and the numbering will be set according to that guy.
+
+`./common.sh` (optional: PDB ID, e.g. 3EAM)
 
 #### superimposing PDB found in given DIR on SEL
 
 for example, we superimpose all the new common set on the Calpha of their residues 200-300, and (1) save the resulting PDB files.
+
 `./superall.sh destBANK/common " and name ca and resi 200-300" 1`
