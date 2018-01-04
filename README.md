@@ -69,6 +69,11 @@ symmetry=5 # this parameter is used to retain the first 'symmetry' chains
 
 ### benefitting from it
 
+#### rewriting all PDB with common numbering scheme
+
 `./common.sh`
 
+#### superimposing PDB found in given DIR on SEL
 
+for example, we superimpose all the new common set on the Calpha of their residues 200-300, and (1) save the resulting PDB files.
+`./superall.sh destBANK/common " and name ca and resi 200-300" 1`
