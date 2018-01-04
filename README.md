@@ -1,3 +1,5 @@
+*Note: git LFS is used to support versioning of 'large' PDB files*
+
 # FamilyStandards
 to ease the comparison of structures from homologues in a protein family
 
