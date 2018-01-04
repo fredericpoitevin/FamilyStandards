@@ -77,6 +77,6 @@ this can be run without argument. If an argument is provided, it needs to be one
 
 #### superimposing PDB found in given DIR on SEL
 
-for example, we superimpose all the new common set on the Calpha of their residues 200-300, and (1) save the resulting PDB files under `destBANK/common/*_super.pdb` in the example provided here.
+for example, we superimpose all the new common set on the Calpha of their residues 230-260, and (1) save the resulting PDB files under `destBANK/common/*_super.pdb` in the example provided here.
 
 `./superall.sh destBANK/common_4PIR " and name ca and resi 230-260" 1`
