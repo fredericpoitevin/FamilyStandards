@@ -14,9 +14,11 @@ mode="auto" # [auto] will retrieve set of PDB according to keyword
 	    #                 (see below for its path definition)
 # keyword is a list of keyword separated by '>' used in the 'auto' mode 
 # to generate the initial PDB list.
-keyword=">pentameric ligand gated ion channel"
-keyword="$keyword >glutamate gated chloride channel"
-keyword="$keyword >serotonin 5-HT3 receptor"
+keyword=""
+keyword="$keyword GluCl"
+#keyword="$keyword >pentameric ligand gated ion channel"
+#keyword="$keyword >glutamate gated chloride channel"
+#keyword="$keyword >serotonin 5-HT3 receptor"
 # 
 # 2) STANDARD PARAMETERS
 cutoff=250 # this parameter is used to discard any PDB whose sequence 
