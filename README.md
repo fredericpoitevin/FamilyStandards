@@ -66,3 +66,9 @@ symmetry=5 # this parameter is used to retain the first 'symmetry' chains
 ### the actual run
 
 `./standardize.sh`
+
+### benefitting from it
+
+`./common.sh`
+
+
