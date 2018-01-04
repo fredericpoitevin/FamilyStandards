@@ -18,7 +18,7 @@ keyword=""
 keyword="$keyword >GluCl"
 #keyword="$keyword >pentameric ligand gated ion channel"
 #keyword="$keyword >glutamate gated chloride channel"
-#keyword="$keyword >serotonin 5-HT3 receptor"
+keyword="$keyword >serotonin 5-HT3 receptor"
 # 
 # 2) STANDARD PARAMETERS
 cutoff=250 # this parameter is used to discard any PDB whose sequence 

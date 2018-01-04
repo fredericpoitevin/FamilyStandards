@@ -52,7 +52,7 @@ keyword=""
 keyword="$keyword >GluCl"
 #keyword="$keyword >pentameric ligand gated ion channel"
 #keyword="$keyword >glutamate gated chloride channel"
-#keyword="$keyword >serotonin 5-HT3 receptor"
+keyword="$keyword >serotonin 5-HT3 receptor"
 # 
 # 2) STANDARD PARAMETERS
 cutoff=250 # this parameter is used to discard any PDB whose sequence 
@@ -73,10 +73,10 @@ symmetry=5 # this parameter is used to retain the first 'symmetry' chains
 
 this can be run without argument. If an argument is provided, it needs to be one of the PDB ID in the set, and the numbering will be set according to that guy.
 
-`./common.sh` (optional: PDB ID, e.g. 3EAM)
+`./common.sh (optional: PDB ID, e.g. 4PIR)`
 
 #### superimposing PDB found in given DIR on SEL
 
 for example, we superimpose all the new common set on the Calpha of their residues 200-300, and (1) save the resulting PDB files under `destBANK/common/*_super.pdb` in the example provided here.
 
-`./superall.sh destBANK/common " and name ca and resi 200-300" 1`
+`./superall.sh destBANK/common_4PIR " and name ca and resi 230-260" 1`
