@@ -29,7 +29,7 @@ you will need the following to run. First three should be native, the latter can
 ## Running it
 
 ### preparing the run
-The FAMILY you wish to STANDARDIZE is an ensemble of PDB files that you can provide yourself, or that you retrieve from the Protein Data Bank through a set of keywords. Please edit the following variables in `config.sh` first:
+The FAMILY you wish to STANDARDIZE is an ensemble of PDB files that you can provide yourself, or that you retrieve from the Protein Data Bank through a set of keywords. One option could be to run in auto mode first to initialize the PDB library, manually curating it then, and finally rerunning in manual mode. Please edit the following variables in `config.sh` first:
 
 ```bash
 ####################################
