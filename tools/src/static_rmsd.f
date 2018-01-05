@@ -22,6 +22,7 @@ c
         nat1=0       
         open(unit=1,file=fpdb1,status='unknown')
 101       read(1,1,end=201) line
+          if(line(1:4).ne."ATOM") goto 101
           nat1 = nat1 + 1
           idx=3*(nat1-1)
           read(line,2) crd1(idx+1),crd1(idx+2),crd1(idx+3)
@@ -32,6 +33,7 @@ c
         nat2=0
         open(unit=1,file=fpdb2,status='unknown')
 102       read(1,1,end=202) line
+          if(line(1:4).ne."ATOM") goto 102
           nat2 = nat2 + 1
           idx=3*(nat2-1)
           read(line,2) crd2(idx+1),crd2(idx+2),crd2(idx+3)
