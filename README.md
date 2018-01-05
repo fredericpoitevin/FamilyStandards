@@ -77,6 +77,11 @@ this can be run without argument. If an argument is provided, it needs to be one
 
 #### superimposing PDB found in given DIR on SEL
 
-for example, we superimpose all the new common set on the Calpha of their residues 230-260, and (1) save the resulting PDB files under `destBANK/common/*_super.pdb` in the example provided here.
-
-`./superall.sh destBANK/common_4PIR " and name ca and resi 230-260" 1`
+for example, we superimpose all the new common set on the Calpha of their residues 30-160, a selection that we associate with the keyword "subECD". Here is what you should see:
+```
+./superall.sh destBANK/common_4PIR/ " and name ca and resi 30-160" subECD
+... about to superimpose  3RI5 3RIA 3RIF 4PIR 4TNV 4TNW 5V6N 5V6O
+  <<< wanna see ? >>>
+$> cd destBANK/common_4PIR/subECD
+$> pymol see.pml
+```
