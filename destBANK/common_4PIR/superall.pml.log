@@ -12,84 +12,84 @@ PyMOL>pymol.plugins.set_startup_path([os.path.join(pymol_git, 'plugins'), os.pat
 PyMOL>pymol.plugins.preferences = {'instantsave': True, 'verbose': False}
 PyMOL>load 3RHW.pdb, 3RHW
  CmdLoad: PDB-string loaded into object "3RHW", state 1.
-PyMOL>save subECD/3RHW_subECD.pdb, 3RHW
+PyMOL>save subTMD/3RHW_subTMD.pdb, 3RHW
 PyMOL>load 3RI5.pdb, 3RI5
  CmdLoad: PDB-string loaded into object "3RI5", state 1.
-PyMOL>align 3RI5  and name ca and resi 30-160, 3RHW  and name ca and resi 30-160,cycles=0
+PyMOL>align 3RI5  and name ca and resi 230-260, 3RHW  and name ca and resi 230-260,cycles=0
  Match: read scoring matrix.
- Match: assigning 630 x 630 pairwise scores.
- MatchAlign: aligning residues (630 vs 630)...
- MatchAlign: score 3325.000
- ExecutiveAlign: 630 atoms aligned.
- Executive: RMS =    0.104 (630 to 630 atoms)
-PyMOL>save subECD/3RI5_subECD.pdb, 3RI5
+ Match: assigning 145 x 145 pairwise scores.
+ MatchAlign: aligning residues (145 vs 145)...
+ MatchAlign: score 770.000
+ ExecutiveAlign: 145 atoms aligned.
+ Executive: RMS =    0.076 (145 to 145 atoms)
+PyMOL>save subTMD/3RI5_subTMD.pdb, 3RI5
 PyMOL>load 3RIA.pdb, 3RIA
  CmdLoad: PDB-string loaded into object "3RIA", state 1.
-PyMOL>align 3RIA  and name ca and resi 30-160, 3RHW  and name ca and resi 30-160,cycles=0
+PyMOL>align 3RIA  and name ca and resi 230-260, 3RHW  and name ca and resi 230-260,cycles=0
  Match: read scoring matrix.
- Match: assigning 630 x 630 pairwise scores.
- MatchAlign: aligning residues (630 vs 630)...
- MatchAlign: score 3325.000
- ExecutiveAlign: 630 atoms aligned.
- Executive: RMS =    0.199 (630 to 630 atoms)
-PyMOL>save subECD/3RIA_subECD.pdb, 3RIA
+ Match: assigning 145 x 145 pairwise scores.
+ MatchAlign: aligning residues (145 vs 145)...
+ MatchAlign: score 770.000
+ ExecutiveAlign: 145 atoms aligned.
+ Executive: RMS =    0.173 (145 to 145 atoms)
+PyMOL>save subTMD/3RIA_subTMD.pdb, 3RIA
 PyMOL>load 3RIF.pdb, 3RIF
  CmdLoad: PDB-string loaded into object "3RIF", state 1.
-PyMOL>align 3RIF  and name ca and resi 30-160, 3RHW  and name ca and resi 30-160,cycles=0
+PyMOL>align 3RIF  and name ca and resi 230-260, 3RHW  and name ca and resi 230-260,cycles=0
  Match: read scoring matrix.
- Match: assigning 630 x 630 pairwise scores.
- MatchAlign: aligning residues (630 vs 630)...
- MatchAlign: score 3325.000
- ExecutiveAlign: 630 atoms aligned.
- Executive: RMS =    0.245 (630 to 630 atoms)
-PyMOL>save subECD/3RIF_subECD.pdb, 3RIF
+ Match: assigning 145 x 145 pairwise scores.
+ MatchAlign: aligning residues (145 vs 145)...
+ MatchAlign: score 770.000
+ ExecutiveAlign: 145 atoms aligned.
+ Executive: RMS =    0.097 (145 to 145 atoms)
+PyMOL>save subTMD/3RIF_subTMD.pdb, 3RIF
 PyMOL>load 4PIR.pdb, 4PIR
  CmdLoad: PDB-string loaded into object "4PIR", state 1.
-PyMOL>align 4PIR  and name ca and resi 30-160, 3RHW  and name ca and resi 30-160,cycles=0
+PyMOL>align 4PIR  and name ca and resi 230-260, 3RHW  and name ca and resi 230-260,cycles=0
  Match: read scoring matrix.
- Match: assigning 630 x 630 pairwise scores.
- MatchAlign: aligning residues (630 vs 630)...
- MatchAlign: score 646.000
- ExecutiveAlign: 599 atoms aligned.
- Executive: RMS =    3.983 (599 to 599 atoms)
-PyMOL>save subECD/4PIR_subECD.pdb, 4PIR
+ Match: assigning 145 x 145 pairwise scores.
+ MatchAlign: aligning residues (145 vs 145)...
+ MatchAlign: score 142.500
+ ExecutiveAlign: 130 atoms aligned.
+ Executive: RMS =    4.022 (130 to 130 atoms)
+PyMOL>save subTMD/4PIR_subTMD.pdb, 4PIR
 PyMOL>load 4TNV.pdb, 4TNV
  CmdLoad: PDB-string loaded into object "4TNV", state 1.
-PyMOL>align 4TNV  and name ca and resi 30-160, 3RHW  and name ca and resi 30-160,cycles=0
+PyMOL>align 4TNV  and name ca and resi 230-260, 3RHW  and name ca and resi 230-260,cycles=0
  Match: read scoring matrix.
- Match: assigning 630 x 630 pairwise scores.
- MatchAlign: aligning residues (630 vs 630)...
- MatchAlign: score 3325.000
- ExecutiveAlign: 630 atoms aligned.
- Executive: RMS =    1.958 (630 to 630 atoms)
-PyMOL>save subECD/4TNV_subECD.pdb, 4TNV
+ Match: assigning 145 x 145 pairwise scores.
+ MatchAlign: aligning residues (145 vs 145)...
+ MatchAlign: score 770.000
+ ExecutiveAlign: 145 atoms aligned.
+ Executive: RMS =    1.426 (145 to 145 atoms)
+PyMOL>save subTMD/4TNV_subTMD.pdb, 4TNV
 PyMOL>load 4TNW.pdb, 4TNW
  CmdLoad: PDB-string loaded into object "4TNW", state 1.
-PyMOL>align 4TNW  and name ca and resi 30-160, 3RHW  and name ca and resi 30-160,cycles=0
+PyMOL>align 4TNW  and name ca and resi 230-260, 3RHW  and name ca and resi 230-260,cycles=0
  Match: read scoring matrix.
- Match: assigning 630 x 630 pairwise scores.
- MatchAlign: aligning residues (630 vs 630)...
- MatchAlign: score 3325.000
- ExecutiveAlign: 630 atoms aligned.
- Executive: RMS =    1.080 (630 to 630 atoms)
-PyMOL>save subECD/4TNW_subECD.pdb, 4TNW
+ Match: assigning 145 x 145 pairwise scores.
+ MatchAlign: aligning residues (145 vs 145)...
+ MatchAlign: score 770.000
+ ExecutiveAlign: 145 atoms aligned.
+ Executive: RMS =    3.387 (145 to 145 atoms)
+PyMOL>save subTMD/4TNW_subTMD.pdb, 4TNW
 PyMOL>load 5V6N.pdb, 5V6N
  CmdLoad: PDB-string loaded into object "5V6N", state 1.
-PyMOL>align 5V6N  and name ca and resi 30-160, 3RHW  and name ca and resi 30-160,cycles=0
+PyMOL>align 5V6N  and name ca and resi 230-260, 3RHW  and name ca and resi 230-260,cycles=0
  Match: read scoring matrix.
- Match: assigning 630 x 630 pairwise scores.
- MatchAlign: aligning residues (630 vs 630)...
- MatchAlign: score 503.500
- ExecutiveAlign: 589 atoms aligned.
- Executive: RMS =    5.162 (589 to 589 atoms)
-PyMOL>save subECD/5V6N_subECD.pdb, 5V6N
+ Match: assigning 145 x 145 pairwise scores.
+ MatchAlign: aligning residues (145 vs 145)...
+ MatchAlign: score 340.000
+ ExecutiveAlign: 145 atoms aligned.
+ Executive: RMS =    1.227 (145 to 145 atoms)
+PyMOL>save subTMD/5V6N_subTMD.pdb, 5V6N
 PyMOL>load 5V6O.pdb, 5V6O
  CmdLoad: PDB-string loaded into object "5V6O", state 1.
-PyMOL>align 5V6O  and name ca and resi 30-160, 3RHW  and name ca and resi 30-160,cycles=0
+PyMOL>align 5V6O  and name ca and resi 230-260, 3RHW  and name ca and resi 230-260,cycles=0
  Match: read scoring matrix.
- Match: assigning 630 x 630 pairwise scores.
- MatchAlign: aligning residues (630 vs 630)...
- MatchAlign: score 503.500
- ExecutiveAlign: 589 atoms aligned.
- Executive: RMS =    5.145 (589 to 589 atoms)
-PyMOL>save subECD/5V6O_subECD.pdb, 5V6O
+ Match: assigning 145 x 145 pairwise scores.
+ MatchAlign: aligning residues (145 vs 145)...
+ MatchAlign: score 330.000
+ ExecutiveAlign: 145 atoms aligned.
+ Executive: RMS =    1.190 (145 to 145 atoms)
+PyMOL>save subTMD/5V6O_subTMD.pdb, 5V6O
