@@ -1,0 +1,48 @@
+PyMOL>import sys, os
+PyMOL>pymol_git = os.path.abspath(os.path.join(os.path.expanduser('~'), 'gdrive/scripts/Pymol-script-repo'))
+PyMOL>os.environ['PYMOL_GIT_MOD'] = os.path.join(pymol_git,'modules')
+PyMOL>sys.path.append(pymol_git)
+PyMOL>sys.path.append(os.environ['PYMOL_GIT_MOD'])
+PyMOL>import psico.fullinit
+PyMOL>import modevectors
+PyMOL>import pymol.plugins
+PyMOL>pymol.plugins.preferences = {'instantsave': False, 'verbose': False}
+PyMOL>pymol.plugins.autoload = {'apbs_tools': False}
+PyMOL>pymol.plugins.set_startup_path([os.path.join(pymol_git, 'plugins'), os.path.join(sys.prefix, 'Lib', 'site-packages', 'pmg_tk', 'startup')])
+PyMOL>pymol.plugins.preferences = {'instantsave': True, 'verbose': False}
+PyMOL>load 3RHW_subTMD.pdb, 3RHW_subTMD
+ ObjectMolecule: Read secondary structure assignments.
+ CmdLoad: PDB-string loaded into object "3RHW_subTMD", state 1.
+PyMOL>save extract_resi200to400/3RHW_subTMD_resi200to400.pdb, 3RHW_subTMD  and name ca and resi 200-400
+PyMOL>load 3RI5_subTMD.pdb, 3RI5_subTMD
+ ObjectMolecule: Read secondary structure assignments.
+ CmdLoad: PDB-string loaded into object "3RI5_subTMD", state 1.
+PyMOL>save extract_resi200to400/3RI5_subTMD_resi200to400.pdb, 3RI5_subTMD  and name ca and resi 200-400
+PyMOL>load 3RIA_subTMD.pdb, 3RIA_subTMD
+ ObjectMolecule: Read secondary structure assignments.
+ CmdLoad: PDB-string loaded into object "3RIA_subTMD", state 1.
+PyMOL>save extract_resi200to400/3RIA_subTMD_resi200to400.pdb, 3RIA_subTMD  and name ca and resi 200-400
+PyMOL>load 3RIF_subTMD.pdb, 3RIF_subTMD
+ ObjectMolecule: Read secondary structure assignments.
+ CmdLoad: PDB-string loaded into object "3RIF_subTMD", state 1.
+PyMOL>save extract_resi200to400/3RIF_subTMD_resi200to400.pdb, 3RIF_subTMD  and name ca and resi 200-400
+PyMOL>load 4PIR_subTMD.pdb, 4PIR_subTMD
+ ObjectMolecule: Read secondary structure assignments.
+ CmdLoad: PDB-string loaded into object "4PIR_subTMD", state 1.
+PyMOL>save extract_resi200to400/4PIR_subTMD_resi200to400.pdb, 4PIR_subTMD  and name ca and resi 200-400
+PyMOL>load 4TNV_subTMD.pdb, 4TNV_subTMD
+ ObjectMolecule: Read secondary structure assignments.
+ CmdLoad: PDB-string loaded into object "4TNV_subTMD", state 1.
+PyMOL>save extract_resi200to400/4TNV_subTMD_resi200to400.pdb, 4TNV_subTMD  and name ca and resi 200-400
+PyMOL>load 4TNW_subTMD.pdb, 4TNW_subTMD
+ ObjectMolecule: Read secondary structure assignments.
+ CmdLoad: PDB-string loaded into object "4TNW_subTMD", state 1.
+PyMOL>save extract_resi200to400/4TNW_subTMD_resi200to400.pdb, 4TNW_subTMD  and name ca and resi 200-400
+PyMOL>load 5V6N_subTMD.pdb, 5V6N_subTMD
+ ObjectMolecule: Read secondary structure assignments.
+ CmdLoad: PDB-string loaded into object "5V6N_subTMD", state 1.
+PyMOL>save extract_resi200to400/5V6N_subTMD_resi200to400.pdb, 5V6N_subTMD  and name ca and resi 200-400
+PyMOL>load 5V6O_subTMD.pdb, 5V6O_subTMD
+ ObjectMolecule: Read secondary structure assignments.
+ CmdLoad: PDB-string loaded into object "5V6O_subTMD", state 1.
+PyMOL>save extract_resi200to400/5V6O_subTMD_resi200to400.pdb, 5V6O_subTMD  and name ca and resi 200-400

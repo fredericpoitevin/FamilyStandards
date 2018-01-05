@@ -85,3 +85,12 @@ for example, we superimpose all the new common set on the Calpha of their residu
 $> cd destBANK/common_4PIR/subECD
 $> pymol see.pml
 ```
+#### extracting SEL from all PDB found in DIR
+
+```
+./extract.sh destBANK/common_4PIR/subTMD/ " and name ca and resi 200-400" resi200to400
+... about to extract  and name ca and resi 200-400 of  3RHW_subTMD 3RI5_subTMD 3RIA_subTMD 3RIF_subTMD 4PIR_subTMD 4TNV_subTMD 4TNW_subTMD 5V6N_subTMD 5V6O_subTMD
+  <<< wanna see ? >>>
+$> cd destBANK/common_4PIR/subTMD/extract_resi200to400
+$> pymol see.pml
+```
