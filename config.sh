@@ -15,9 +15,9 @@ mode="auto" # [auto] will retrieve set of PDB according to keyword
 # keyword is a list of keyword separated by '>' used in the 'auto' mode 
 # to generate the initial PDB list.
 keyword=""
-keyword="$keyword >GluCl"
-#keyword="$keyword >pentameric ligand gated ion channel"
-#keyword="$keyword >glutamate gated chloride channel"
+keyword="$keyword >GluCl GLIC ELIC"
+keyword="$keyword >pentameric ligand gated ion channel"
+keyword="$keyword >glutamate gated chloride channel"
 keyword="$keyword >serotonin 5-HT3 receptor"
 # 
 # 2) STANDARD PARAMETERS
@@ -30,7 +30,7 @@ symmetry=5 # this parameter is used to retain the first 'symmetry' chains
 #
 ######################################################
 # DO NOT EDIT BELOW UNLESS YOU KNOW WHAT YOU ARE DOING
-LOCAL_TOP="/Users/fpoitevi/gdrive/Toolkit/FamilyStandards/FamilyStandards_release"
+LOCAL_TOP="/Users/fpoitevi/gdrive/Toolkit/FamilyStandards/FamilyStandards"
 LOCAL_SRC="$LOCAL_TOP"/tools
 INIT_BANK="$LOCAL_TOP"/init$jobid
 DEST_BANK="$LOCAL_TOP"/dest$jobid

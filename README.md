@@ -136,3 +136,7 @@ $> pymol see.pml
 5V6O_subTMD_resi200to400.pdb 4TNW_subTMD_resi200to400.pdb   3.21
 5V6O_subTMD_resi200to400.pdb 5V6N_subTMD_resi200to400.pdb   0.25
 ```
+
+### Future developments
+
+integrate with [getcontacts](https://getcontacts.github.io/index.html) tools.
